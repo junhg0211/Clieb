@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[|LANGUAGE_NAME|]: [|KEYWORD|]</title>
+
+    <style>
+        html {
+            text-align: center;
+			font-family: serif;
+        }
+
+        div p {
+            margin: 0;
+        }
+
+        div h2 {
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <a href="/index"><h1>Étten</h1></a>
+        <form action="/search">
+            <input type="text" name="keyword" value="[|KEYWORD|]">
+            <input type="submit" value="[|SEARCH|]">
+        </form>
+    </div>
+    [|RESULT|]
+</body>
+</html>
